@@ -1,12 +1,93 @@
-# React + Vite
+# 📝 To-Do Liste (Single Page Application)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Beschreibung
+Dies ist eine Single Page Application (SPA) für eine To-Do Liste, entwickelt mit **React** und **TailwindCSS**.  
+Die App ermöglicht es dem Benutzer, Aufgaben zu erstellen, zu bearbeiten, zu löschen und zu durchsuchen.  
+Jede Aufgabe enthält folgende Attribute:
+- Titel
+- Beschreibung
+- Autor
+- Kategorie
+- Wichtigkeit
+- Dringlichkeit
+- Startdatum
+- Enddatum
+- Fortschritt (0–100%)
 
-Currently, two official plugins are available:
+Die **Priorität** einer Aufgabe wird automatisch anhand der Eigenschaften "Wichtigkeit" und "Dringlichkeit" berechnet und angezeigt.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- ✅ Aufgaben **hinzufügen, bearbeiten und löschen**
+- 🔍 **Suchfunktion** für Aufgaben
+- 🛡️ **Formularvalidierung** für Pflichtfelder, Maximalwerte, Datumsprüfung
+- 📊 Fortschrittsbalken für Statusanzeige (0–100%)
+- ⚙️ Automatische **Prioritätsberechnung**
+- 📱 **Responsives Design** für Desktop & Mobile
+- 💾 Lokaler State (kein Backend, keine Datenbank)
+- 🔄 Moderne React Hooks (`useState`, `useEffect`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Verwendete Technologien
+- [React](https://react.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- JavaScript (ES6)
+- Lokaler Component State (kein Redux, kein Backend)
+
+---
+
+## 📦 Installation & Nutzung
+
+```bash
+# Repository klonen
+git clone https://github.com/dein-benutzername/todo-spa.git
+
+# Ins Projektverzeichnis wechseln
+cd todo-spa
+
+# Abhängigkeiten installieren
+npm install
+
+# Lokalen Entwicklungsserver starten
+npm run dev
+````
+
+---
+
+## 📚 Lernziele & Erkenntnisse
+
+* Umgang mit React (SPA, Hooks)
+* State-Management innerhalb einer Anwendung
+* Formularvalidierung und Fehlermeldungen
+* Dynamische UI-Komponenten
+* Einsatz von TailwindCSS für responsives Design
+* Debugging und Testing von Frontend-Komponenten
+
+---
+
+## ⚠️ Hinweise
+
+* Keine Backend-Integration (Daten bleiben nur im lokalen State)
+* Kein Routing (Einseitenanwendung)
+* Getestet auf:
+
+    * Brave Browser
+
+---
+
+## 👤 Autor
+
+| Name         | Schule/Klasse | Projekt        |
+|--------------|---------------| -------------- |
+| Loïc Matthey | I2b           | ToDo SPA React |
+
+---
+
+## 🔗 Lizenz
+
+Dieses Projekt wurde ausschließlich für schulische Zwecke erstellt.
+**Keine kommerzielle Nutzung erlaubt.**
+
+```
