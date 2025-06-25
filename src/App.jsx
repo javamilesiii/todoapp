@@ -123,7 +123,7 @@ function ToDo() {
         setModal(true);
     };
 
-    // Schließt das Modal und setzt Fehler zurück
+    // Schliesst das Modal und setzt Fehler zurück
     const closeModal = () => {
         setModal(false);
         setEditingIndex(null);
