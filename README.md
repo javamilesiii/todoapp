@@ -53,6 +53,7 @@ npm install
 # Lokalen Entwicklungsserver starten
 npm run dev
 ````
+oder gehen sie einfach auf [https://javamilesiii.github.io/todoapp/](https://javamilesiii.github.io/todoapp/)
 
 ---
 
